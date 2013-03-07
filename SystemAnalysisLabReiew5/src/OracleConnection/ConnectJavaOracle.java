@@ -1,5 +1,7 @@
 package OracleConnection;
 
+import java.sql.*;
+
 public class ConnectJavaOracle {
 
 	/**
@@ -12,6 +14,19 @@ public class ConnectJavaOracle {
 		ConnecttoOracle("scott","tiger");
 	}
 	
-	public void ConnecttoOracle(String User,String Password)
+	public static   void ConnecttoOracle(String username,String password)
+	{
+		//Declare a null Connection:
+		Connection c=null;
+		
+		
+		{//try begin:
+		System.out.println("  ********************************  ");
+		System.out.println("  CREATION OF TABLES FOR LAB REVIEW 5  ");
+		System.out.println("  ********************************  ");
+
+		}//try end.
+		
+	}
 
 }
