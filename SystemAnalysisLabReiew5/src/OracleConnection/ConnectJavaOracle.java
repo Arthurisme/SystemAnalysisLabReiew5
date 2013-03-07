@@ -19,14 +19,34 @@ public class ConnectJavaOracle {
 		//Declare a null Connection:
 		Connection c=null;
 		
-		
+		try
 		{//try begin:
 		System.out.println("  ********************************  ");
 		System.out.println("  CREATION OF TABLES FOR LAB REVIEW 5  ");
 		System.out.println("  ********************************  ");
 
-		}//try end.
+		System.out.println("* Loading the driver  *");
 		
+	//declare the connection:
+		//Set driver name:		 
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			
+			System.out.println("****** Creating Faculty table  ******");
+
+			String query="";
+		
+		
+
+		
+		
+		
+		
+		}//try end.
+	  catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		// try 4
 	}
 
 }
