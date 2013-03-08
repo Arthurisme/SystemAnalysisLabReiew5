@@ -11,7 +11,10 @@ public class ConnectJavaOracle {
 		// TODO Auto-generated method stub
 
 		// Connect to oracle here:
-		ConnecttoOracle("scott", "tiger");
+		//home:
+				 ConnecttoOracle("system", "liuliu");
+		//school:
+		//ConnecttoOracle("scott", "tiger");
 	}
 
 	public static void ConnecttoOracle(String username, String password) {
